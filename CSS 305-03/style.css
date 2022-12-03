@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    padding-top: 175px;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    width: 59%;
+    height: 412px;
+    /* border: 2px solid green; */
+    border-radius: 20px;
+    color: white;
+}
+
+.top, .center, .bottom {
+    padding: 30px 69px 0px 40px;
+}
+
+.top {
+    
+    background-color: #e38826;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(164, 164, 164);
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+.icon-1 img {
+    z-index: 1;
+    position: absolute;
+    top: 203px;
+    left: 445PX;
+
+}
+.firstImg {
+    width: 43px;
+    height: 35px;
+}
+.sameHeading {
+    padding-top: 50px;
+}
+.samePara {
+    padding-top: 30px;
+}
+.button {
+    padding-top: 47px;
+}
+.button button {
+    width: 133px;
+    height: 51px;
+    border-radius: 31px;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    
+}
+.button-1 button {
+    color: #e38826;
+}
+
+
+
+
+.center {
+    /* padding: 30px 20px 0px 40px; */
+    background-color: #006970;
+}
+.icon-2 img {
+    z-index: 1;
+    position: absolute;
+    top: 196px;
+    left: 810px;
+}
+.button-2 button {
+    color: #006970;
+}
+
+
+.bottom {
+    /* padding: 30px 20px 0px 40px; */
+    background-color: #004241;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.icon-3 img {
+    z-index: 1;
+    position: absolute;
+    top: 203px;
+    left: 1176px;
+    height: 40px;
+    width: 61px;
+}
+.button-3 button {
+    color: #004241;
+}
